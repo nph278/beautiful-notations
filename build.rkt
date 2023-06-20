@@ -52,7 +52,11 @@
          ("Vonnegut Story Diagrams"
           "A representation of the plot of a story. The vertical axis represents how good the situation is. The horizontal axis represents time."
           ("https://www.eadeverell.com/character-arc/")
-          "vonnegut.png"))))
+          "vonnegut.png")
+         ("Piet"
+          "Piet is a stack-oriented programming language that uses a 2d array of color to represent programs."
+          ("https://esolangs.org/wiki/Piet")
+          "piet.gif"))))
 
 (define (entry->xexpr entry)
   `(div ((class "entry"))
