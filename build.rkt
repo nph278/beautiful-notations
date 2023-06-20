@@ -31,7 +31,7 @@
           ("https://en.wikipedia.org/wiki/Kaktovik_numerals")
           "kaktovik.png")
          ("Hangul (Korean Alphabet)"
-          "The alphabet used for writing Korean. It was designed in 1443 by King Sejong the Great. It has simple symbols for consonants and vowels, and each syllable is organized into a block."
+          "The alphabet used for writing Korean. It was designed in 1443 by King Sejong the Great. It has simple symbols for consonants and vowels, and each syllable is organized into a block. The shapes for the letters are based on the shape that the mouth makes when making that sound."
           ("https://en.wikipedia.org/wiki/Hangul"
            "https://en.wikipedia.org/wiki/Sejong_the_Great")
           "hangul.png")
