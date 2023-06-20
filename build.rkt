@@ -12,7 +12,8 @@
   (map (lambda (x) (apply entry x))
        '(("Lambda Diagrams"
           "An elagant notation for lambda calculus expressions. A horizontal line repesents a lambda binding. A vertical line coming from one represents a instance of that variable. Joining two values with a horizontal connector represents application."
-          ("https://tromp.github.io/cl/diagrams.html")
+          ("https://tromp.github.io/cl/diagrams.html"
+           "https://en.wikipedia.org/wiki/Lambda_calculus")
           "lambda.gif")
          ("Canadian Aboriginal Syllabics"
           "An abugita used for indeginous languages in Canada. Each consonant is assigned a symbol. The symbol will be rotated based on what vowel comes after it."
@@ -20,7 +21,7 @@
            "https://en.wikipedia.org/wiki/Abugida")
           "syllabics.jpg")
          ("Cistercian Numerals"
-          "A system of numerals developed by monks in the 13th century. It can represent numbers up to 9999 with one glyph. Each glyph is a vertical line with a base-10 numeral ijn each corner."
+          "A system of numerals developed by monks in the 13th century. It can represent numbers up to 9999 with one glyph. Each glyph is a vertical line with a base-10 numeral ijn each corner. This gives it a sub-base of 10."
           ("https://en.wikipedia.org/wiki/Cistercian_numerals")
           "cistercian.png")
          ("Kaktovik Numerals"
