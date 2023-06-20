@@ -8,6 +8,7 @@
 (define title "Beautiful Notations")
 (define summary "A collection of concise and asthetic notations")
 (define favicon "./images/favicon.png")
+(define source-link "https://github.com/nph278/beautiful-notations")
 
 (define entries
   (map (lambda (x) (apply entry x))
@@ -94,6 +95,7 @@
                  (style ,css))
            (body (h1 ,title)
                  (p ,summary)
+                 (p (a ((href ,source-link)) "Source code"))
                  ,@(map entry->xexpr entries))))))
 
 (call-with-output-file "./index.html"
