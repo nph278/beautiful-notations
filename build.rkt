@@ -6,7 +6,7 @@
 
 (define title "Beautiful Notations")
 (define summary "A collection of concise and asthetic notations")
-(define favicon "/images/favicon.png")
+(define favicon "./images/favicon.png")
 
 (define entries
   (map (lambda (x) (apply entry x))
@@ -41,7 +41,7 @@
 (define (entry->xexpr entry)
   `(div ((class "entry"))
         (h2 ,(entry-title entry))
-        (img ((src ,(string-append "/images/" (entry-image entry))) (alt ,(entry-title entry))))
+        (img ((src ,(string-append "./images/" (entry-image entry))) (alt ,(entry-title entry))))
         (p ,(entry-summary entry))
         (ul ((class "link-list"))
             ,@(map (lambda (url)
@@ -59,7 +59,7 @@
                  (meta ((name "description")
                         (content ,summary)))
                  (link ((rel "stylesheet")
-                        (href "/style.css")))
+                        (href "./style.css")))
                  (link ((rel "icon")
                         (type "image/gif")
                         (href ,favicon)))
