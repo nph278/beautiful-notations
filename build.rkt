@@ -44,7 +44,11 @@
           "A graph-based system of representing computations. There are simple symmetric rules for reducing patterns within a graph. Lambda calculus expressions can be converted into interaction nets."
           ("https://zicklag.github.io/blog/interaction-nets-combinators-calculus/"
            "https://en.wikipedia.org/wiki/Lambda_calculus")
-          "interaction.webp"))))
+          "interaction.webp")
+         ("Feynman Diagrams"
+          "A representation of interactions of subatomic particles. Space varies vertically. Time varies horizontally. Electrons are repesented by arrows. Photons are wavy lines. Gluons are spring-like lines. Other particles are represented by different kinds of lines."
+          ("https://en.wikipedia.org/wiki/Feynman_diagram")
+          "feynman.png"))))
 
 (define (entry->xexpr entry)
   `(div ((class "entry"))
