@@ -22,7 +22,7 @@
            "https://en.wikipedia.org/wiki/Abugida")
           "syllabics.jpg")
          ("Cistercian Numerals"
-          "A system of numerals developed by monks in the 13th century. It can represent numbers up to 9999 with one glyph. Each glyph is a vertical line with a base-10 numeral ijn each corner. This gives it a sub-base of 10."
+          "A system of numerals developed by monks in the 13th century. It can represent numbers up to 9999 with one glyph. Each glyph is a vertical line with a base-10 numeral in each corner. This gives it a sub-base of 10."
           ("https://en.wikipedia.org/wiki/Cistercian_numerals")
           "cistercian.png")
          ("Kaktovik Numerals"
