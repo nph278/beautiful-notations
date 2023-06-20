@@ -48,7 +48,11 @@
          ("Feynman Diagrams"
           "A representation of interactions of subatomic particles. Space varies vertically. Time varies horizontally. Electrons are repesented by arrows. Photons are wavy lines. Gluons are spring-like lines. Other particles are represented by different kinds of lines."
           ("https://en.wikipedia.org/wiki/Feynman_diagram")
-          "feynman.png"))))
+          "feynman.png")
+         ("Vonnegut Story Diagrams"
+          "A representation of the plot of a story. The vertical axis represents how good the situation is. The horizontal axis represents time."
+          ("https://www.eadeverell.com/character-arc/")
+          "vonnegut.png"))))
 
 (define (entry->xexpr entry)
   `(div ((class "entry"))
