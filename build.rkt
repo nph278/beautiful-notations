@@ -39,7 +39,12 @@
           "A notation for describing collections of mirrors. Each node represents a mirror, and each edge represents a joining of two mirrors. The number on an edge represents the fraction of 180 degrees that the connection of the mirrors has an angle of. If nodes are not connected by an edge, the angle is 90 degrees. If they are connected by an unlabeled edge, the angle is 60 degrees. Each collection can be used to create a mathematical group."
           ("https://en.wikipedia.org/wiki/Coxeter%E2%80%93Dynkin_diagram"
            "https://en.wikipedia.org/wiki/Coxeter_group")
-          "coxeter.png"))))
+          "coxeter.png")
+         ("Symmetric Interaction Combinators / Interaction Nets"
+          "A graph-based system of representing computations. There are simple symmetric rules for reducing patterns within a graph. Lambda calculus expressions can be converted into interaction nets."
+          ("https://zicklag.github.io/blog/interaction-nets-combinators-calculus/"
+           "https://en.wikipedia.org/wiki/Lambda_calculus")
+          "interaction.webp"))))
 
 (define (entry->xexpr entry)
   `(div ((class "entry"))
