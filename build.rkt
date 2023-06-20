@@ -1,6 +1,7 @@
 #lang racket
 
 (require xml)
+(require css-expr)
 
 (struct entry (title summary links image))
 
@@ -49,6 +50,33 @@
                      `(li (a ((href ,url)) ,url)))
                    (entry-links entry)))))
 
+(define css
+  (css-expr->css
+   '([body
+      #:color white
+      #:background black
+      #:font-family monospace]
+     [a
+      #:color cyan
+      #:word-break break-word]
+     [a:visited
+      #:color lime]
+     [.entry
+      #:padding 1em
+      #:margin-top 1em
+      #:border (2px white solid)
+      [img
+       #:max-height 10em
+       #:max-width 100%
+       #:height auto
+       #:width auto
+       #:border (2px white solid)
+       #:background white]]
+     [.link-list
+      #:list-style-type none
+      #:margin 0
+      #:padding 0])))
+
 (define html
   (string-append
    "<!DOCTYPE html>"
@@ -59,12 +87,11 @@
                         (content "width=device-width,initial-scale=1")))
                  (meta ((name "description")
                         (content ,summary)))
-                 (link ((rel "stylesheet")
-                        (href "./style.css")))
                  (link ((rel "icon")
                         (type "image/gif")
                         (href ,favicon)))
-                 (title ,title))
+                 (title ,title)
+                 (style ,css))
            (body (h1 ,title)
                  (p ,summary)
                  ,@(map entry->xexpr entries))))))

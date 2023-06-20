@@ -39,6 +39,8 @@ jobs:
          distribution: 'full'
          variant: 'CS'
          version: 'stable'
+      - name: Install Dependincies
+        run: raco pkg install --auto css-expr
       - name: Build
         run: racket build.rkt
       - name: Upload artifact
