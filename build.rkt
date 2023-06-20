@@ -30,7 +30,7 @@
          ("Hangul (Korean Alphabet)"
           "The alphabet used for writing Korean. It was designed in 1443 by King Sejong the Great. It has simple symbols for consonants and vowels, and each syllable is organized into a block."
           ("https://en.wikipedia.org/wiki/Hangul"
-           "https://en.wikipedia.org/wiki/Seong_the_Great")
+           "https://en.wikipedia.org/wiki/Sejong_the_Great")
           "hangul.png")
          ("Coxeter-Dynkin Diagrams"
           "A notation for describing collections of mirrors. Each node represents a mirror, and each edge represents a joining of two mirrors. The number on an edge represents the fraction of 180 degrees that the connection of the mirrors has an angle of. If nodes are not connected by an edge, the angle is 90 degrees. If they are connected by an unlabeled edge, the angle is 60 degrees. Each collection can be used to create a mathematical group."
